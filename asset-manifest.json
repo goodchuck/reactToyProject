@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reactToyProject/static/css/main.4e1f5e64.css",
+    "main.js": "/reactToyProject/static/js/main.0720748a.js",
+    "static/media/splash_icon.png": "/reactToyProject/static/media/splash_icon.02c6935fe83f5168af12.png",
+    "static/media/footerimg1.png": "/reactToyProject/static/media/footerimg1.e2c2fa3f75c3fe5cdbab.png",
+    "static/media/logo.svg": "/reactToyProject/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/reactToyProject/index.html",
+    "main.4e1f5e64.css.map": "/reactToyProject/static/css/main.4e1f5e64.css.map",
+    "main.0720748a.js.map": "/reactToyProject/static/js/main.0720748a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e1f5e64.css",
+    "static/js/main.0720748a.js"
+  ]
+}
