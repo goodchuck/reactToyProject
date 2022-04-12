@@ -1,0 +1,165 @@
+.DI_Nav {
+    justify-content: space-between; 
+    width:98%; 
+    height:40px;
+}
+
+.DI_Body {
+    display:flex; 
+    width:98%; 
+    margin-top:20px; 
+    justify-content: space-between;
+}
+
+/* .DI_Body > div{
+    width:100%; 
+    flex-direction: column; 
+    gap:20px;
+} */
+
+.device {
+    width:10%;
+    background: #51B263;
+    border-radius: 5px;
+    margin-right:10px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.edit_button {
+    width:5%;
+    background: #51B263;
+    border-radius: 5px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.info_button {
+    flex : 1 0 50%;
+    /* width:100%; */
+    /* height:35px; */
+    background: linear-gradient(180deg, #FEFEFE 0%, #ECEEED 100%);
+    border: 0.873333px solid #D2D2D2;
+    border-radius: 2.62px;
+    color: #44654C;
+}
+
+
+.plant_button {
+    height:119px;
+}
+
+.flex0020 {
+    flex: 0 0 20%;
+}
+
+.info_button p, .sensor_value_wrapper p {
+    color: #44654C;
+    font-size:1.9rem;
+    margin:0;
+    padding:0;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sensor_value_wrapper > p:first-of-type {
+    font-size:1.5rem;
+    flex-direction:column;
+    justify-content: flex-end;
+}
+
+
+.sensor_value_wrapper > p:last-of-type {
+    font-weight:bold;
+    flex-direction:column;
+    justify-content: flex-start;
+}
+
+
+
+.sensor_status_wrapper {
+    width:100%;
+    height:123px;
+    background: #FEFEFE;
+    border: 0.873333px solid #D2D2D2;
+}
+
+.sensor_status_wrapper > div:first-of-type {
+    border-left: 0.873333px solid #D2D2D2;
+    border-right: 0.873333px solid #D2D2D2;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.sensor_status_wrapper > div:last-of-type {
+    /* border-right: 0.873333px solid #D2D2D2; */
+    border-radius: 0px 3px 3px 0px;
+}
+
+.device_info_wrapper {
+    width:100%; 
+    height:55px;
+    display:flex; 
+    border: 1px solid #51B263;
+    border-radius: 5px 0px 0px 5px;
+    overflow:hidden;
+}
+
+.device_info_wrapper > div:first-of-type {
+    /* flex : 1 0 50%; */
+    width:40%;
+    height:100%;
+    /* width:100%; */
+    /* height:35px; */
+    background: rgba(81, 178, 99, 0.5);
+    border-right: 1px solid rgba(81, 178, 99, 0.5);
+    box-sizing: border-box;
+    font-size:22px;
+    color: #44654C;
+}
+
+.device_info_wrapper > div:last-of-type {
+    flex : 1 0 50%;
+    /* width:100%; */
+    /* height:35px; */
+    background: #FEFEFE;
+    /* border: 1px solid #51B263; */
+    font-size:16px;
+    color: #44654C;
+}
+
+.infoCard {
+    width:24%;
+    height:255px;
+    border: 4px solid #51B263;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5%;
+}
+
+.infoCard div > div:first-of-type {
+    font-size:30px;
+    color: #51B263;
+}
+
+.infoCard div > div:last-of-type {
+    font-size:40px;
+    color: #51B263;
+}
+
+.infoCard div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.infoCardIcon {
+    width:100px;
+    height:100px;
+
+}

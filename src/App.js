@@ -1,24 +1,32 @@
 import logo from './logo.svg';
 import './App.css';
+import './CSS/index.css'
+import Splash from './Pages/splash';
+import SideBar from './Pages/sidebar';
+import { Route, Routes } from 'react-router-dom';
+import Layout from './Pages/layout';
+import Web from './Pages/Web';
+import WebPost from './Pages/WebPost';
+import Home from './Pages/Home';
+import Ajax from './Pages/Ajax';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+
+
+    <Routes>
+      <Route path="/" element={<Splash />} />
+      <Route path="/layout" element={<Home />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/deviceInfo" element={<Home />} />
+      <Route path="web/*" element={<Home />}>
+        <Route path=":id" element={<WebPost />} />
+      </Route>
+      <Route path="/ajax" element={<Home />}/>
+    </Routes>
+    </>
+    
   );
 }
 
