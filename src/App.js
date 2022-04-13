@@ -13,7 +13,7 @@ import Ajax from './Pages/Ajax';
 function App() {
   return (
     <>
-
+      <h1>test</h1>
 
     <Routes>
       <Route path="/" element={<Splash />} />
